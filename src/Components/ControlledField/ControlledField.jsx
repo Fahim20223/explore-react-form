@@ -36,7 +36,6 @@ const ControlledField = () => {
           defaultValue={email}
           type="email"
           name="email"
-          id=""
           placeholder="Email"
           required
         />
@@ -46,7 +45,6 @@ const ControlledField = () => {
           name="password"
           onChange={handlePasswordOnChange}
           defaultValue={password}
-          id=""
           placeholder="Password"
           required
         />
