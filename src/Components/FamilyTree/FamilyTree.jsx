@@ -3,7 +3,7 @@ import Grandpa from "./Grandpa";
 import "./FamilyTree.css";
 
 export const AssetContext = createContext("");
-export const MoneyContext = createContext();
+export const MoneyContext = createContext("");
 const FamilyTree = () => {
   const asset = "Diamond";
   const newAsset = "gold";
